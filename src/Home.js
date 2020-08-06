@@ -21,7 +21,7 @@ function Home() {
           />
 
           <Product
-            id="1234512"
+            id="1234513"
             title="Nilkamal Hero Engineered Wood Queen Bed  (Finish Color - Wenge)"
             price={499.99}
             rating={5}
@@ -31,7 +31,7 @@ function Home() {
         </div>
         <div className="home__row">
           <Product
-            id="1234512"
+            id="1234514"
             title="Slim Men Light Blue Jeans"
             price={499.99}
             rating={5}
@@ -39,7 +39,7 @@ function Home() {
           />
 
           <Product
-            id="1234512"
+            id="1234515"
             title="Solid Men V Neck Black, Grey T-Shirt  (Pack of 3)"
             price={499.99}
             rating={5}
@@ -47,7 +47,7 @@ function Home() {
           />
 
           <Product
-            id="1234512"
+            id="1234516"
             title="Fast look (Expandable) super premium quality polyester light weight duffel bag (sea green) Duffel Strolley Bag  (Blue)"
             price={499.99}
             rating={5}
@@ -58,7 +58,7 @@ function Home() {
 
         <div className="home__row">
           <Product
-            id="1234512"
+            id="1234517"
             title="Mi 4A PRO 80 cm (32) HD Ready LED Smart Android TV With Google Data Saver"
             price={499.99}
             rating={5}

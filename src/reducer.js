@@ -12,10 +12,23 @@ const reducer = (state, action) => {
             // Logic for adding item to basket
             return { ...state,
             basket: [...state.basket, action.payload] };            
+
         case 'REMOVE_FROM_BASKET':
             // Logic for removing item from basket
-            return { state };
-            
+            let newBasket = [...state.basket]
+            const index = state.basket.findIndex(
+                (basketItem) => basketItem.id  === action.id
+            );
+            if(index >=0) {
+                //Remove item with matching index number
+                newBasket.splice(index, 1);
+            } else {
+                console.warn('No product to remove from basket')
+            }
+
+            return { ...state, 
+            basket: newBasket };        
+
         default:
             return state;
     }
