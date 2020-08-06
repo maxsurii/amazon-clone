@@ -1,6 +1,9 @@
 
 .checkout {
- 
+ display: flex;
+ padding: 20px;
+ background-color: white;
+ height: max-content;
 }
 
 .checkout__ad {
@@ -12,6 +15,4 @@
 .checkout_title {
     margin-right: 10px;
     padding: 10px;
-
-
 }
